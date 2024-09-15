@@ -3,6 +3,20 @@
 Overview
 The Ventilator System is a safety-critical program designed to monitor and manage the settings of a ventilator, a device essential for assisting patients with breathing. The program ensures that the ventilator operates within safe parameters by continuously checking and reporting various metrics. It features a set of procedures to handle key tasks, including initializing settings, performing critical checks, and providing real-time status updates.
 
+## Language Used
+
+This project is developed in [SPARK Ada](https://www.adacore.com/sparkada), a formal subset of the Ada programming language designed for high-integrity and high-assurance software. 
+
+## Files
+
+- `.ada`, `.ads`, `.adb` files are used in this project and are written in SPARK Ada.
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KamileSimkute/yourrepository.git
+
 Key Features
 1. Start Procedure
 Initializes global variables required for the ventilator system.
